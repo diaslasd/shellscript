@@ -1,0 +1,19 @@
+Shell Script
+Professor Julio Neves
+prog.shell.linux https://www.youtube.com/channel/UCpIYXOF825aX8qq77xnTCLQ
+
+Comando TPUT
+1. tput cup - cursor position, linha coluna
+  ex.: tput cut 10 20
+2. tput home - coloca na posicao 0 0
+3. tput el - limpa a linha
+4. tput bold - Coloca em negrito
+5. tput rev - modo reverso
+6. tput smul - sublinhado
+7. tput sgr0 - restaura terminal padrão
+  ex.: B=$(tput bold);R=$(tput rev);S=$(tput smul);P=$(tput sgro)
+  echo Linha com $B\Bold$P, com $R\Reverso$P e com $S\Sublinhado$P 
+8. tput lines - Linhas do terminal
+9. tput cols - Colunas do terminal
+10. tput civis - cursor invisível
+11. tput cnorm - cursos normal 
